@@ -1,6 +1,7 @@
 package com.cursoSpringBoot.service;
 
 import com.cursoSpringBoot.domain.Product;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
 import java.lang.reflect.Array;
@@ -26,4 +27,6 @@ public class ProductsServiceImpl implements ProductService {
     public List<Product> getProducts() {
         return products;
     }
+
+
 }
